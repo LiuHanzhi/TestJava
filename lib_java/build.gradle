@@ -1,5 +1,9 @@
 apply plugin: 'java-library'
 
+// 添加implementation依赖
+apply plugin: 'com.github.dcendents.android-maven'
+group 'com.github.LiuHanzhi'
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
