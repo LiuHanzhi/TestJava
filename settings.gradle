@@ -1,0 +1,3 @@
+rootProject.name='TestJava'
+include ':app'
+include ':lib_java'
